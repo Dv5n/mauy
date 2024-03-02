@@ -5,19 +5,19 @@
 #include <stdlib.h>
 
 #ifndef DEBUG
-#define DEBUG	1
+#define DEBUG	0
 #endif // DEBUG
 
-#define ds		"\e[1;1H\e[2J"
+#define ds	"\e[1;1H\e[2J"
 
 #define logout	"logout"
 #define exit0	"exited with code 0 (normal)"
 #define exit1	"exited with code 1 (error)"
 
-#define root		"root"
-#define user		"Dv5N" // You can change this to your username.
+#define root	"root"
+#define user	"Dv5N" // You can change this to your username.
 
-#define buf		256
+#define buf	256
 
 
 DIR* cob; struct dirent* dir; // For printing the files and subdirectories.
