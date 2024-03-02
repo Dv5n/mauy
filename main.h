@@ -1,7 +1,7 @@
 #define ver		"0"
 #define sver		"0"
-#define ssver	"5"
-#define branch	"nightly"
+#define ssver		"5"
+#define branch		"nightly"
 // Example 1: 0.0.1_nightly
 // Example 2: 0.1.0_pre
 // Example 3: 1.0.0_stable
